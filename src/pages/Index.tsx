@@ -1,28 +1,16 @@
 import { useRef } from 'react';
 import takeoffLogo from '@/assets/takeoff-logo.png';
 import { Button } from '@/components/ui/button';
-import { Globe, Package, Ship, Mail, Phone, MapPin, ArrowRight, CheckCircle2, TrendingUp, Boxes, Tag, Search, Shield, Award, Plane, Container, FileText, Warehouse } from 'lucide-react';
+import { Globe, Package, Ship, Mail, Phone, MapPin, ArrowRight, CheckCircle2, TrendingUp, Boxes, Tag, Search, Shield, Award, Plane, MessageCircle } from 'lucide-react';
 import WorldMapAnimation from '@/components/WorldMapAnimation';
 import LogisticsAnimation from '@/components/LogisticsAnimation';
+import ServiceImageCard from '@/components/ServiceImageCard';
 
 const AnimatedOrb = ({ className, delay = 0 }: { className: string; delay?: number }) => (
   <div 
     className={`orb animate-pulse-slow ${className}`}
     style={{ animationDelay: `${delay}s` }}
   />
-);
-
-const ServiceCard = ({ icon: Icon, title, description, delay }: { icon: any; title: string; description: string; delay: number }) => (
-  <div 
-    className="bg-card-gradient border border-border/50 rounded-2xl p-8 hover:border-primary/50 transition-all duration-500 hover:shadow-lg hover:-translate-y-2 group"
-    style={{ animationDelay: `${delay}ms` }}
-  >
-    <div className="w-14 h-14 rounded-xl bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-colors duration-300">
-      <Icon className="w-7 h-7 text-primary" strokeWidth={1.5} />
-    </div>
-    <h3 className="font-display text-xl font-bold mb-3 text-foreground">{title}</h3>
-    <p className="text-muted-foreground leading-relaxed">{description}</p>
-  </div>
 );
 
 const AchievementCard = ({ icon: Icon, title, description, delay }: { icon: any; title: string; description: string; delay: number }) => (
@@ -104,16 +92,16 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center pt-20 bg-hero-gradient overflow-hidden">
         {/* Background Image Overlay */}
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=80&w=2070')`,
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[hsl(260_35%_15%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[hsl(215_70%_15%)]" />
         
         {/* Animated Orbs */}
-        <AnimatedOrb className="orb-purple w-96 h-96 -top-48 -right-48 opacity-20" delay={0} />
-        <AnimatedOrb className="orb-lavender w-80 h-80 top-1/3 -left-40 opacity-15" delay={2} />
+        <AnimatedOrb className="orb-blue w-96 h-96 -top-48 -right-48 opacity-20" delay={0} />
+        <AnimatedOrb className="orb-light-blue w-80 h-80 top-1/3 -left-40 opacity-15" delay={2} />
         
         <div className="container mx-auto px-6 py-20 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
@@ -216,35 +204,35 @@ const Index = () => {
             </h2>
           </div>
           
-          {/* World Map Animation */}
+          {/* World Map */}
           <div className="mb-16">
             <WorldMapAnimation />
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <ServiceCard 
+            <ServiceImageCard 
               icon={Package} 
               title="Product Portfolio Management" 
               description="Carefully selected, quality-driven products aligned with global standards and market demand."
-              delay={100}
+              imageUrl="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070"
             />
-            <ServiceCard 
+            <ServiceImageCard 
               icon={TrendingUp} 
               title="Market Intelligence" 
               description="In-depth market insights to help position products effectively and maximize international reach."
-              delay={200}
+              imageUrl="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072"
             />
-            <ServiceCard 
+            <ServiceImageCard 
               icon={Ship} 
               title="Logistics & Shipping Solutions" 
               description="Seamless export operations covering documentation, customs coordination, and real-time shipment tracking."
-              delay={300}
+              imageUrl="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=2070"
             />
-            <ServiceCard 
+            <ServiceImageCard 
               icon={Plane} 
               title="Express Export Services" 
               description="Accelerated export handling for time-critical shipments with reliable and committed timelines."
-              delay={400}
+              imageUrl="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074"
             />
           </div>
         </div>
@@ -283,12 +271,12 @@ const Index = () => {
       {/* Achievements Section - DARK */}
       <section ref={achievementsRef} className="py-24 relative section-dark overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-15"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072')`,
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[hsl(260_35%_15%)] via-transparent to-[hsl(260_35%_15%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[hsl(215_70%_15%)] via-transparent to-[hsl(215_70%_15%)]" />
         
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center mb-16">
@@ -344,7 +332,7 @@ const Index = () => {
       {/* Contact Section - LIGHT */}
       <section ref={contactRef} className="py-24 relative section-light">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-5"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-8"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074')`,
           }}
@@ -374,11 +362,14 @@ const Index = () => {
                   <span className="text-foreground font-medium text-sm">info@takeoffexpoerts.com</span>
                 </a>
                 
-                <a href="tel:+919677053103" className="flex flex-col items-center p-6 rounded-2xl bg-primary/10 hover:bg-primary/20 transition-colors duration-300 group">
+                <a href="https://wa.me/919677053103" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-6 rounded-2xl bg-primary/10 hover:bg-primary/20 transition-colors duration-300 group">
                   <div className="w-14 h-14 rounded-xl bg-primary/20 flex items-center justify-center mb-4 group-hover:bg-primary/30 transition-colors">
-                    <Phone className="w-6 h-6 text-primary" strokeWidth={1.5} />
+                    <div className="flex items-center gap-1">
+                      <Phone className="w-5 h-5 text-primary" strokeWidth={1.5} />
+                      <MessageCircle className="w-4 h-4 text-primary" strokeWidth={1.5} />
+                    </div>
                   </div>
-                  <span className="text-sm text-muted-foreground mb-1">Call Us</span>
+                  <span className="text-sm text-muted-foreground mb-1">Call / WhatsApp</span>
                   <span className="text-foreground font-medium">+91 96770 53103</span>
                 </a>
                 
@@ -387,7 +378,10 @@ const Index = () => {
                     <MapPin className="w-6 h-6 text-primary" strokeWidth={1.5} />
                   </div>
                   <span className="text-sm text-muted-foreground mb-1">Visit Us</span>
-                  <span className="text-foreground font-medium">View on Map</span>
+                  <span className="text-foreground font-medium text-center text-xs leading-relaxed">
+                    77/46 E2, Old Post Office Street,<br />
+                    Usilampatti, Madurai DT – 625532
+                  </span>
                 </a>
               </div>
               
