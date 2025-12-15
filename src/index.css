@@ -6,58 +6,59 @@
 
 @layer base {
   :root {
-    --background: 270 30% 98%;
-    --foreground: 270 50% 20%;
+    /* Light Blue Trade Theme */
+    --background: 210 50% 98%;
+    --foreground: 215 50% 15%;
 
-    --card: 270 40% 96%;
-    --card-foreground: 270 50% 15%;
+    --card: 210 40% 96%;
+    --card-foreground: 215 50% 12%;
 
-    --popover: 270 40% 96%;
-    --popover-foreground: 270 50% 15%;
+    --popover: 210 40% 96%;
+    --popover-foreground: 215 50% 12%;
 
-    --primary: 270 60% 60%;
-    --primary-foreground: 270 100% 98%;
+    --primary: 215 60% 50%;
+    --primary-foreground: 210 100% 98%;
 
-    --secondary: 270 30% 92%;
-    --secondary-foreground: 270 50% 25%;
+    --secondary: 210 30% 92%;
+    --secondary-foreground: 215 50% 20%;
 
-    --muted: 270 20% 90%;
-    --muted-foreground: 270 30% 40%;
+    --muted: 210 20% 90%;
+    --muted-foreground: 215 30% 40%;
 
-    --accent: 280 50% 55%;
-    --accent-foreground: 270 100% 98%;
+    --accent: 160 45% 40%;
+    --accent-foreground: 210 100% 98%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 270 100% 98%;
+    --destructive-foreground: 210 100% 98%;
 
-    --border: 270 30% 85%;
-    --input: 270 30% 85%;
-    --ring: 270 60% 60%;
+    --border: 210 30% 85%;
+    --input: 210 30% 85%;
+    --ring: 215 60% 50%;
 
     --radius: 0.75rem;
 
-    /* Custom colors */
-    --purple: 270 60% 60%;
-    --purple-light: 270 50% 75%;
-    --purple-dark: 270 70% 45%;
-    --lavender: 270 40% 90%;
+    /* Custom colors - Light Blue Theme */
+    --trade-blue: 210 50% 95%;
+    --navy: 215 70% 20%;
+    --navy-light: 215 50% 35%;
+    --export-green: 160 45% 40%;
     
-    /* Dark section colors */
-    --section-dark: 260 35% 15%;
-    --section-dark-foreground: 270 30% 95%;
-    --section-dark-muted: 270 20% 70%;
+    /* Dark section colors - Deep Navy */
+    --section-dark: 215 70% 15%;
+    --section-dark-foreground: 210 30% 95%;
+    --section-dark-muted: 210 20% 70%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(260 35% 12%) 0%, hsl(260 40% 18%) 50%, hsl(270 35% 20%) 100%);
-    --gradient-purple: linear-gradient(135deg, hsl(270 60% 60%) 0%, hsl(280 50% 65%) 100%);
-    --gradient-lavender: linear-gradient(180deg, hsl(270 30% 98%) 0%, hsl(270 40% 95%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(270 40% 97%) 0%, hsl(270 35% 94%) 100%);
-    --gradient-card-dark: linear-gradient(145deg, hsl(260 30% 20%) 0%, hsl(260 35% 16%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(215 70% 12%) 0%, hsl(215 60% 18%) 50%, hsl(210 50% 22%) 100%);
+    --gradient-blue: linear-gradient(135deg, hsl(215 60% 50%) 0%, hsl(200 50% 55%) 100%);
+    --gradient-light: linear-gradient(180deg, hsl(210 50% 98%) 0%, hsl(210 40% 95%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(210 40% 97%) 0%, hsl(210 35% 94%) 100%);
+    --gradient-card-dark: linear-gradient(145deg, hsl(215 60% 18%) 0%, hsl(215 70% 14%) 100%);
 
     /* Shadows */
-    --shadow-glow: 0 0 60px hsl(270 60% 60% / 0.2);
-    --shadow-card: 0 25px 50px -12px hsl(270 60% 40% / 0.15);
-    --shadow-button: 0 10px 40px -10px hsl(270 60% 60% / 0.4);
+    --shadow-glow: 0 0 60px hsl(215 60% 50% / 0.2);
+    --shadow-card: 0 25px 50px -12px hsl(215 60% 40% / 0.15);
+    --shadow-button: 0 10px 40px -10px hsl(215 60% 50% / 0.4);
 
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -82,12 +83,12 @@
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(270 70% 45%) 0%, hsl(270 60% 55%) 50%, hsl(280 55% 60%) 100%);
+    background-image: linear-gradient(135deg, hsl(215 70% 40%) 0%, hsl(200 60% 45%) 50%, hsl(160 45% 40%) 100%);
   }
 
   .text-gradient-light {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(270 80% 75%) 0%, hsl(280 70% 80%) 50%, hsl(270 60% 70%) 100%);
+    background-image: linear-gradient(135deg, hsl(200 70% 75%) 0%, hsl(180 60% 70%) 50%, hsl(160 50% 65%) 100%);
   }
 
   .bg-hero-gradient {
@@ -111,7 +112,7 @@
     background: hsl(var(--background));
   }
 
-  .glow-purple {
+  .glow-blue {
     box-shadow: var(--shadow-glow);
   }
 
@@ -229,16 +230,16 @@
   opacity: 0.3;
 }
 
-.orb-purple {
-  background: hsl(270 60% 60%);
+.orb-blue {
+  background: hsl(215 60% 50%);
 }
 
-.orb-lavender {
-  background: hsl(270 50% 75%);
+.orb-light-blue {
+  background: hsl(200 50% 65%);
 }
 
-.orb-purple-light {
-  background: hsl(280 50% 70%);
+.orb-green {
+  background: hsl(160 45% 50%);
 }
 
 /* World map animation */
