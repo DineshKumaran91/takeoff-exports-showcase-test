@@ -2,9 +2,9 @@ import { useRef } from 'react';
 import takeoffLogo from '@/assets/takeoff-logo.png';
 import { Button } from '@/components/ui/button';
 import { Globe, Package, Ship, Mail, Phone, MapPin, ArrowRight, CheckCircle2, TrendingUp, Boxes, Tag, Search, Shield, Award, Plane, MessageCircle } from 'lucide-react';
-import WorldMapAnimation from '@/components/WorldMapAnimation';
 import LogisticsAnimation from '@/components/LogisticsAnimation';
 import ServiceImageCard from '@/components/ServiceImageCard';
+import LanguageSelector from '@/components/LanguageSelector';
 
 const AnimatedOrb = ({ className, delay = 0 }: { className: string; delay?: number }) => (
   <div 
@@ -43,6 +43,11 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
+      {/* Language Selector - Top Left */}
+      <div className="fixed top-20 left-4 z-40">
+        <LanguageSelector />
+      </div>
+
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-xl border-b border-border/50">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
@@ -204,12 +209,7 @@ const Index = () => {
             </h2>
           </div>
           
-          {/* World Map */}
-          <div className="mb-16">
-            <WorldMapAnimation />
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
             <ServiceImageCard 
               icon={Package} 
               title="Product Portfolio Management" 
@@ -241,7 +241,7 @@ const Index = () => {
       {/* Brands Section - LIGHT */}
       <section ref={brandsRef} className="py-24 relative section-light border-t border-border/30">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-5"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-15"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070')`,
           }}
@@ -354,12 +354,12 @@ const Index = () => {
               </div>
               
               <div className="grid md:grid-cols-3 gap-8">
-                <a href="mailto:info@takeoffexpoerts.com" className="flex flex-col items-center p-6 rounded-2xl bg-primary/10 hover:bg-primary/20 transition-colors duration-300 group">
+                <a href="mailto:info@takeoffexports.com" className="flex flex-col items-center p-6 rounded-2xl bg-primary/10 hover:bg-primary/20 transition-colors duration-300 group">
                   <div className="w-14 h-14 rounded-xl bg-primary/20 flex items-center justify-center mb-4 group-hover:bg-primary/30 transition-colors">
                     <Mail className="w-6 h-6 text-primary" strokeWidth={1.5} />
                   </div>
                   <span className="text-sm text-muted-foreground mb-1">Email Us</span>
-                  <span className="text-foreground font-medium text-sm">info@takeoffexpoerts.com</span>
+                  <span className="text-foreground font-medium text-sm">info@takeoffexports.com</span>
                 </a>
                 
                 <a href="https://wa.me/919677053103" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-6 rounded-2xl bg-primary/10 hover:bg-primary/20 transition-colors duration-300 group">
