@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "brands": "Brands",
+    "achievements": "Achievements",
+    "contact": "Contact",
+    "getQuote": "Get Quote"
+  },
+  "hero": {
+    "tagline": "Delivering Quality. Exporting Trust.",
+    "description": "An India-based export company committed to delivering high-quality products to global markets with transparency, consistency, and efficient execution.",
+    "startExporting": "Start Exporting",
+    "ourServices": "Our Services"
+  },
+  "about": {
+    "label": "About Us",
+    "title": "Trusted Export Partner",
+    "since": "Since 2025",
+    "description1": "Takeoff Exports is an India-based export company committed to delivering high-quality products to global markets. With a strong focus on quality, compliance, and reliability, we ensure every shipment meets international standards and customer expectations.",
+    "description2": "Our approach is built on transparency, consistency, and efficient execution—making global trade smooth, dependable, and scalable for our partners.",
+    "whyChoose": "Why Choose Takeoff Exports?",
+    "reasons": {
+      "quality": "Internationally compliant quality assurance",
+      "pricing": "Competitive and transparent pricing",
+      "logistics": "End-to-end export and logistics management",
+      "support": "Dedicated customer and account support"
+    }
+  },
+  "services": {
+    "label": "What We Do",
+    "title": "Our",
+    "titleHighlight": "Export Services",
+    "portfolio": {
+      "title": "Product Portfolio Management",
+      "description": "Carefully selected, quality-driven products aligned with global standards and market demand."
+    },
+    "market": {
+      "title": "Market Intelligence",
+      "description": "In-depth market insights to help position products effectively and maximize international reach."
+    },
+    "logistics": {
+      "title": "Logistics & Shipping Solutions",
+      "description": "Seamless export operations covering documentation, customs coordination, and real-time shipment tracking."
+    },
+    "express": {
+      "title": "Express Export Services",
+      "description": "Accelerated export handling for time-critical shipments with reliable and committed timelines."
+    }
+  },
+  "brands": {
+    "label": "~ Our Brands ~",
+    "title": "Delivering",
+    "titleHighlight": "Excellence Together",
+    "comingSoon": "Coming Soon",
+    "description": "We're building partnerships with exceptional brands to bring you the best products from India to the world. Stay tuned for our brand portfolio."
+  },
+  "achievements": {
+    "label": "Achievements",
+    "title": "Customers Prefer Us for",
+    "titleHighlight": "Our Specialties",
+    "subtitle": "We Value Unique and Innovative Client Requirements",
+    "multiProduct": {
+      "title": "Multi-Product Consolidation Expertise",
+      "description": "We specialize in handling complex shipments, managing over 100 different products in a single container or LCL shipment with precision and care."
+    },
+    "packaging": {
+      "title": "Customized Packaging & Labeling",
+      "description": "Tailor-made packaging and labeling solutions designed to meet country-specific regulations and client preferences."
+    },
+    "sourcing": {
+      "title": "New & Custom Product Sourcing",
+      "description": "Looking for something new or different? Share your product list with us. We identify suitable products at your target price and export them under your brand name."
+    },
+    "integrity": {
+      "title": "Integrity & Transparency",
+      "description": "We are committed to ethical practices, honesty, and complete transparency in every transaction."
+    },
+    "excellence": {
+      "title": "Pursuit of Excellence",
+      "description": "Driven by continuous improvement, we strive to enhance our processes, services, and product quality to deliver exceptional value."
+    }
+  },
+  "contact": {
+    "label": "Get In Touch",
+    "title": "Ready to",
+    "titleHighlight": "Take Off?",
+    "description": "Contact us today for a free consultation and discover how we can help expand your business globally.",
+    "email": "Email Us",
+    "phone": "Call / WhatsApp",
+    "address": "Visit Us",
+    "requestQuote": "Request Free Quote"
+  },
+  "footer": {
+    "tagline": "Delivering Quality. Exporting Trust.",
+    "copyright": "© 2025 Takeoff Exports. All rights reserved."
+  }
+}

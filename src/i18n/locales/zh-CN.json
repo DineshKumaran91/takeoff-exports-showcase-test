@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "about": "关于我们",
+    "services": "服务",
+    "brands": "品牌",
+    "achievements": "成就",
+    "contact": "联系我们",
+    "getQuote": "获取报价"
+  },
+  "hero": {
+    "tagline": "交付品质。出口信任。",
+    "description": "一家总部位于印度的出口公司，致力于以透明、一致和高效的执行向全球市场交付高质量产品。",
+    "startExporting": "开始出口",
+    "ourServices": "我们的服务"
+  },
+  "about": {
+    "label": "关于我们",
+    "title": "值得信赖的出口伙伴",
+    "since": "自2025年起",
+    "description1": "Takeoff Exports是一家总部位于印度的出口公司，致力于向全球市场交付高质量产品。我们高度重视质量、合规和可靠性，确保每批货物都符合国际标准和客户期望。",
+    "description2": "我们的方法建立在透明、一致和高效执行的基础上——使全球贸易对我们的合作伙伴来说更加顺畅、可靠和可扩展。",
+    "whyChoose": "为什么选择 Takeoff Exports？",
+    "reasons": {
+      "quality": "符合国际标准的质量保证",
+      "pricing": "有竞争力和透明的定价",
+      "logistics": "端到端出口和物流管理",
+      "support": "专属客户和账户支持"
+    }
+  },
+  "services": {
+    "label": "我们的业务",
+    "title": "我们的",
+    "titleHighlight": "出口服务",
+    "portfolio": {
+      "title": "产品组合管理",
+      "description": "精心挑选、注重质量的产品，符合全球标准和市场需求。"
+    },
+    "market": {
+      "title": "市场情报",
+      "description": "深入的市场洞察，帮助有效定位产品并最大化国际覆盖范围。"
+    },
+    "logistics": {
+      "title": "物流和运输解决方案",
+      "description": "无缝的出口操作，涵盖文档、海关协调和实时货运追踪。"
+    },
+    "express": {
+      "title": "快速出口服务",
+      "description": "为时间紧迫的货运提供加速出口处理，保证可靠和承诺的时间表。"
+    }
+  },
+  "brands": {
+    "label": "~ 我们的品牌 ~",
+    "title": "共同",
+    "titleHighlight": "交付卓越",
+    "comingSoon": "即将推出",
+    "description": "我们正在与杰出品牌建立合作伙伴关系，为您带来从印度到世界的最佳产品。敬请关注我们的品牌组合。"
+  },
+  "achievements": {
+    "label": "成就",
+    "title": "客户选择我们是因为",
+    "titleHighlight": "我们的专业",
+    "subtitle": "我们重视客户独特和创新的需求",
+    "multiProduct": {
+      "title": "多产品整合专业知识",
+      "description": "我们专注于处理复杂货运，在单个集装箱或拼箱货运中精准细致地管理100多种不同产品。"
+    },
+    "packaging": {
+      "title": "定制包装和标签",
+      "description": "量身定制的包装和标签解决方案，旨在满足特定国家/地区的法规和客户偏好。"
+    },
+    "sourcing": {
+      "title": "新产品和定制产品采购",
+      "description": "寻找新的或不同的东西？与我们分享您的产品清单。我们会按您的目标价格找到合适的产品，并以您的品牌名称出口。"
+    },
+    "integrity": {
+      "title": "诚信与透明",
+      "description": "我们致力于在每笔交易中坚持道德实践、诚实和完全透明。"
+    },
+    "excellence": {
+      "title": "追求卓越",
+      "description": "在持续改进的驱动下，我们努力提升我们的流程、服务和产品质量，以提供卓越价值。"
+    }
+  },
+  "contact": {
+    "label": "联系我们",
+    "title": "准备好",
+    "titleHighlight": "起飞了吗？",
+    "description": "立即联系我们获取免费咨询，了解我们如何帮助您拓展全球业务。",
+    "email": "发送邮件",
+    "phone": "致电 / WhatsApp",
+    "address": "访问我们",
+    "requestQuote": "请求免费报价"
+  },
+  "footer": {
+    "tagline": "交付品质。出口信任。",
+    "copyright": "© 2025 Takeoff Exports. 保留所有权利。"
+  }
+}
