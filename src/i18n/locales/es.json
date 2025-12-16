@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "services": "Servicios",
+    "brands": "Marcas",
+    "achievements": "Logros",
+    "contact": "Contacto",
+    "getQuote": "Cotización"
+  },
+  "hero": {
+    "tagline": "Entregando Calidad. Exportando Confianza.",
+    "description": "Una empresa exportadora con sede en India comprometida a entregar productos de alta calidad a los mercados globales con transparencia, consistencia y ejecución eficiente.",
+    "startExporting": "Comenzar a Exportar",
+    "ourServices": "Nuestros Servicios"
+  },
+  "about": {
+    "label": "Sobre Nosotros",
+    "title": "Socio de Exportación Confiable",
+    "since": "Desde 2025",
+    "description1": "Takeoff Exports es una empresa exportadora con sede en India comprometida a entregar productos de alta calidad a los mercados globales. Con un fuerte enfoque en calidad, cumplimiento y confiabilidad, aseguramos que cada envío cumpla con los estándares internacionales y las expectativas de los clientes.",
+    "description2": "Nuestro enfoque se basa en transparencia, consistencia y ejecución eficiente, haciendo que el comercio global sea fluido, confiable y escalable para nuestros socios.",
+    "whyChoose": "¿Por qué elegir Takeoff Exports?",
+    "reasons": {
+      "quality": "Garantía de calidad conforme a normas internacionales",
+      "pricing": "Precios competitivos y transparentes",
+      "logistics": "Gestión integral de exportación y logística",
+      "support": "Soporte dedicado al cliente y cuenta"
+    }
+  },
+  "services": {
+    "label": "Lo Que Hacemos",
+    "title": "Nuestros",
+    "titleHighlight": "Servicios de Exportación",
+    "portfolio": {
+      "title": "Gestión de Cartera de Productos",
+      "description": "Productos cuidadosamente seleccionados, orientados a la calidad, alineados con estándares globales y demanda del mercado."
+    },
+    "market": {
+      "title": "Inteligencia de Mercado",
+      "description": "Perspectivas de mercado profundas para ayudar a posicionar productos efectivamente y maximizar el alcance internacional."
+    },
+    "logistics": {
+      "title": "Soluciones de Logística y Envío",
+      "description": "Operaciones de exportación sin problemas que cubren documentación, coordinación aduanera y seguimiento de envíos en tiempo real."
+    },
+    "express": {
+      "title": "Servicios de Exportación Express",
+      "description": "Manejo de exportación acelerado para envíos urgentes con plazos confiables y comprometidos."
+    }
+  },
+  "brands": {
+    "label": "~ Nuestras Marcas ~",
+    "title": "Entregando",
+    "titleHighlight": "Excelencia Juntos",
+    "comingSoon": "Próximamente",
+    "description": "Estamos construyendo asociaciones con marcas excepcionales para traerte los mejores productos de India al mundo. Mantente atento a nuestra cartera de marcas."
+  },
+  "achievements": {
+    "label": "Logros",
+    "title": "Los Clientes nos Prefieren por",
+    "titleHighlight": "Nuestras Especialidades",
+    "subtitle": "Valoramos los Requisitos Únicos e Innovadores de los Clientes",
+    "multiProduct": {
+      "title": "Experiencia en Consolidación Multi-Producto",
+      "description": "Nos especializamos en manejar envíos complejos, gestionando más de 100 productos diferentes en un solo contenedor o envío LCL con precisión y cuidado."
+    },
+    "packaging": {
+      "title": "Embalaje y Etiquetado Personalizado",
+      "description": "Soluciones de embalaje y etiquetado a medida diseñadas para cumplir con regulaciones específicas de cada país y preferencias del cliente."
+    },
+    "sourcing": {
+      "title": "Abastecimiento de Productos Nuevos y Personalizados",
+      "description": "¿Buscas algo nuevo o diferente? Comparte tu lista de productos con nosotros. Identificamos productos adecuados a tu precio objetivo y los exportamos bajo tu nombre de marca."
+    },
+    "integrity": {
+      "title": "Integridad y Transparencia",
+      "description": "Estamos comprometidos con prácticas éticas, honestidad y completa transparencia en cada transacción."
+    },
+    "excellence": {
+      "title": "Búsqueda de la Excelencia",
+      "description": "Impulsados por la mejora continua, nos esforzamos por mejorar nuestros procesos, servicios y calidad de productos para entregar un valor excepcional."
+    }
+  },
+  "contact": {
+    "label": "Contáctanos",
+    "title": "¿Listo para",
+    "titleHighlight": "Despegar?",
+    "description": "Contáctanos hoy para una consulta gratuita y descubre cómo podemos ayudar a expandir tu negocio globalmente.",
+    "email": "Envíanos un Correo",
+    "phone": "Llamar / WhatsApp",
+    "address": "Visítanos",
+    "requestQuote": "Solicitar Cotización Gratis"
+  },
+  "footer": {
+    "tagline": "Entregando Calidad. Exportando Confianza.",
+    "copyright": "© 2025 Takeoff Exports. Todos los derechos reservados."
+  }
+}

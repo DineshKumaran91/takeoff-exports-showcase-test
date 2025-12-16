@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "about": "회사 소개",
+    "services": "서비스",
+    "brands": "브랜드",
+    "achievements": "성과",
+    "contact": "문의하기",
+    "getQuote": "견적"
+  },
+  "hero": {
+    "tagline": "품질 배송. 신뢰 수출.",
+    "description": "투명성, 일관성 및 효율적인 실행으로 글로벌 시장에 고품질 제품을 제공하는 데 전념하는 인도 기반 수출 회사입니다.",
+    "startExporting": "수출 시작하기",
+    "ourServices": "우리의 서비스"
+  },
+  "about": {
+    "label": "회사 소개",
+    "title": "신뢰할 수 있는 수출 파트너",
+    "since": "2025년부터",
+    "description1": "Takeoff Exports는 글로벌 시장에 고품질 제품을 제공하는 데 전념하는 인도 기반 수출 회사입니다. 품질, 규정 준수 및 신뢰성에 중점을 두고 모든 선적이 국제 표준과 고객 기대를 충족하도록 보장합니다.",
+    "description2": "우리의 접근 방식은 투명성, 일관성 및 효율적인 실행을 기반으로 합니다. 파트너를 위해 글로벌 무역을 원활하고 신뢰할 수 있으며 확장 가능하게 만듭니다.",
+    "whyChoose": "왜 Takeoff Exports를 선택해야 하나요?",
+    "reasons": {
+      "quality": "국제 표준 준수 품질 보증",
+      "pricing": "경쟁력 있고 투명한 가격",
+      "logistics": "엔드투엔드 수출 및 물류 관리",
+      "support": "전담 고객 및 계정 지원"
+    }
+  },
+  "services": {
+    "label": "우리가 하는 일",
+    "title": "우리의",
+    "titleHighlight": "수출 서비스",
+    "portfolio": {
+      "title": "제품 포트폴리오 관리",
+      "description": "글로벌 표준과 시장 수요에 맞춘 신중하게 선별된 고품질 제품."
+    },
+    "market": {
+      "title": "시장 인텔리전스",
+      "description": "제품을 효과적으로 포지셔닝하고 국제적 도달 범위를 최대화하기 위한 심층 시장 인사이트."
+    },
+    "logistics": {
+      "title": "물류 및 배송 솔루션",
+      "description": "문서 작업, 세관 조정 및 실시간 선적 추적을 포함하는 원활한 수출 운영."
+    },
+    "express": {
+      "title": "익스프레스 수출 서비스",
+      "description": "신뢰할 수 있고 약속된 일정으로 시간이 중요한 선적을 위한 가속화된 수출 처리."
+    }
+  },
+  "brands": {
+    "label": "~ 우리의 브랜드 ~",
+    "title": "함께",
+    "titleHighlight": "우수성 제공",
+    "comingSoon": "곧 출시",
+    "description": "인도에서 세계로 최고의 제품을 제공하기 위해 뛰어난 브랜드와 파트너십을 구축하고 있습니다. 브랜드 포트폴리오에 주목해 주세요."
+  },
+  "achievements": {
+    "label": "성과",
+    "title": "고객이 우리를 선호하는 이유는",
+    "titleHighlight": "우리의 전문성",
+    "subtitle": "고객의 독특하고 혁신적인 요구 사항을 소중히 여깁니다",
+    "multiProduct": {
+      "title": "다중 제품 통합 전문성",
+      "description": "복잡한 선적 처리를 전문으로 하며, 단일 컨테이너 또는 LCL 선적에서 100개 이상의 다양한 제품을 정밀하고 세심하게 관리합니다."
+    },
+    "packaging": {
+      "title": "맞춤형 포장 및 라벨링",
+      "description": "국가별 규정과 고객 선호도를 충족하도록 설계된 맞춤형 포장 및 라벨링 솔루션."
+    },
+    "sourcing": {
+      "title": "신규 및 맞춤 제품 소싱",
+      "description": "새롭거나 다른 것을 찾고 계신가요? 제품 목록을 공유해 주세요. 목표 가격에 맞는 적합한 제품을 찾아 귀사의 브랜드명으로 수출합니다."
+    },
+    "integrity": {
+      "title": "성실성과 투명성",
+      "description": "모든 거래에서 윤리적 관행, 정직함 및 완전한 투명성에 전념합니다."
+    },
+    "excellence": {
+      "title": "우수성 추구",
+      "description": "지속적인 개선에 힘입어 뛰어난 가치를 제공하기 위해 프로세스, 서비스 및 제품 품질을 향상시키기 위해 노력합니다."
+    }
+  },
+  "contact": {
+    "label": "문의하기",
+    "title": "준비",
+    "titleHighlight": "되셨나요?",
+    "description": "무료 상담을 위해 오늘 문의하시고 글로벌하게 비즈니스를 확장하는 데 어떻게 도움을 드릴 수 있는지 알아보세요.",
+    "email": "이메일 보내기",
+    "phone": "전화 / WhatsApp",
+    "address": "방문하기",
+    "requestQuote": "무료 견적 요청"
+  },
+  "footer": {
+    "tagline": "품질 배송. 신뢰 수출.",
+    "copyright": "© 2025 Takeoff Exports. 모든 권리 보유."
+  }
+}
