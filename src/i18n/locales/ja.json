@@ -94,5 +94,20 @@
   "footer": {
     "tagline": "品質をお届け。信頼を輸出。",
     "copyright": "© 2025 Takeoff Exports. 全著作権所有。"
+  },
+  "quoteForm": {
+    "title": "無料見積りを依頼",
+    "subtitle": "詳細を入力していただければ、すぐにご連絡いたします",
+    "namePlaceholder": "お名前",
+    "mobilePlaceholder": "携帯電話番号",
+    "emailPlaceholder": "メールアドレス",
+    "messagePlaceholder": "メッセージ（任意）",
+    "submit": "送信",
+    "submitting": "送信中...",
+    "validationError": "検証エラー",
+    "fillRequired": "必須項目をすべて入力してください",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "successTitle": "ありがとうございます！",
+    "successMessage": "すぐにご連絡いたします"
   }
 }
