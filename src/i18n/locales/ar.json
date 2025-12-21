@@ -94,5 +94,20 @@
   "footer": {
     "tagline": "تقديم الجودة. تصدير الثقة.",
     "copyright": "© 2025 Takeoff Exports. جميع الحقوق محفوظة."
+  },
+  "quoteForm": {
+    "title": "اطلب عرض أسعار مجاني",
+    "subtitle": "أدخل بياناتك وسنتواصل معك قريباً",
+    "namePlaceholder": "اسمك",
+    "mobilePlaceholder": "رقم الجوال",
+    "emailPlaceholder": "البريد الإلكتروني",
+    "messagePlaceholder": "رسالتك (اختياري)",
+    "submit": "إرسال",
+    "submitting": "جاري الإرسال...",
+    "validationError": "خطأ في التحقق",
+    "fillRequired": "يرجى ملء جميع الحقول المطلوبة",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح",
+    "successTitle": "شكراً لك!",
+    "successMessage": "سنتواصل معك قريباً"
   }
 }

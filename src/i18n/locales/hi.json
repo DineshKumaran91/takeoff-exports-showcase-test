@@ -94,5 +94,20 @@
   "footer": {
     "tagline": "गुणवत्ता वितरण। विश्वास निर्यात।",
     "copyright": "© 2025 Takeoff Exports. सर्वाधिकार सुरक्षित।"
+  },
+  "quoteForm": {
+    "title": "मुफ्त कोटेशन का अनुरोध करें",
+    "subtitle": "अपना विवरण भरें और हम जल्द ही आपसे संपर्क करेंगे",
+    "namePlaceholder": "आपका नाम",
+    "mobilePlaceholder": "मोबाइल नंबर",
+    "emailPlaceholder": "ईमेल आईडी",
+    "messagePlaceholder": "आपका संदेश (वैकल्पिक)",
+    "submit": "जमा करें",
+    "submitting": "जमा हो रहा है...",
+    "validationError": "सत्यापन त्रुटि",
+    "fillRequired": "कृपया सभी आवश्यक फ़ील्ड भरें",
+    "invalidEmail": "कृपया एक वैध ईमेल पता दर्ज करें",
+    "successTitle": "धन्यवाद!",
+    "successMessage": "हम जल्द ही आपसे संपर्क करेंगे"
   }
 }

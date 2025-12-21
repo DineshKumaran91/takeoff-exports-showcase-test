@@ -94,5 +94,20 @@
   "footer": {
     "tagline": "গুণমান সরবরাহ। বিশ্বাস রপ্তানি।",
     "copyright": "© ২০২৫ Takeoff Exports. সর্বস্বত্ব সংরক্ষিত।"
+  },
+  "quoteForm": {
+    "title": "বিনামূল্যে কোটেশনের অনুরোধ করুন",
+    "subtitle": "আপনার বিবরণ পূরণ করুন এবং আমরা শীঘ্রই যোগাযোগ করব",
+    "namePlaceholder": "আপনার নাম",
+    "mobilePlaceholder": "মোবাইল নম্বর",
+    "emailPlaceholder": "ইমেইল আইডি",
+    "messagePlaceholder": "আপনার বার্তা (ঐচ্ছিক)",
+    "submit": "জমা দিন",
+    "submitting": "জমা হচ্ছে...",
+    "validationError": "যাচাইকরণ ত্রুটি",
+    "fillRequired": "সমস্ত প্রয়োজনীয় ক্ষেত্র পূরণ করুন",
+    "invalidEmail": "একটি বৈধ ইমেইল ঠিকানা লিখুন",
+    "successTitle": "ধন্যবাদ!",
+    "successMessage": "আমরা শীঘ্রই যোগাযোগ করব"
   }
 }

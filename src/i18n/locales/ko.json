@@ -94,5 +94,20 @@
   "footer": {
     "tagline": "품질 배송. 신뢰 수출.",
     "copyright": "© 2025 Takeoff Exports. 모든 권리 보유."
+  },
+  "quoteForm": {
+    "title": "무료 견적 요청",
+    "subtitle": "정보를 입력하시면 곧 연락드리겠습니다",
+    "namePlaceholder": "이름",
+    "mobilePlaceholder": "휴대폰 번호",
+    "emailPlaceholder": "이메일",
+    "messagePlaceholder": "메시지 (선택사항)",
+    "submit": "제출",
+    "submitting": "제출 중...",
+    "validationError": "검증 오류",
+    "fillRequired": "모든 필수 항목을 입력해 주세요",
+    "invalidEmail": "유효한 이메일 주소를 입력해 주세요",
+    "successTitle": "감사합니다!",
+    "successMessage": "곧 연락드리겠습니다"
   }
 }

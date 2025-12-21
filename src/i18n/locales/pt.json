@@ -94,5 +94,20 @@
   "footer": {
     "tagline": "Entregando Qualidade. Exportando Confiança.",
     "copyright": "© 2025 Takeoff Exports. Todos os direitos reservados."
+  },
+  "quoteForm": {
+    "title": "Solicitar Orçamento Grátis",
+    "subtitle": "Preencha seus dados e entraremos em contato em breve",
+    "namePlaceholder": "Seu Nome",
+    "mobilePlaceholder": "Número de Celular",
+    "emailPlaceholder": "E-mail",
+    "messagePlaceholder": "Sua Mensagem (Opcional)",
+    "submit": "Enviar",
+    "submitting": "Enviando...",
+    "validationError": "Erro de Validação",
+    "fillRequired": "Preencha todos os campos obrigatórios",
+    "invalidEmail": "Digite um e-mail válido",
+    "successTitle": "Obrigado!",
+    "successMessage": "Entraremos em contato em breve"
   }
 }

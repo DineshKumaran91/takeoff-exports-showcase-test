@@ -94,5 +94,20 @@
   "footer": {
     "tagline": "交付品质。出口信任。",
     "copyright": "© 2025 Takeoff Exports. 保留所有权利。"
+  },
+  "quoteForm": {
+    "title": "请求免费报价",
+    "subtitle": "填写您的信息，我们将尽快与您联系",
+    "namePlaceholder": "您的姓名",
+    "mobilePlaceholder": "手机号码",
+    "emailPlaceholder": "电子邮箱",
+    "messagePlaceholder": "您的留言（可选）",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "validationError": "验证错误",
+    "fillRequired": "请填写所有必填项",
+    "invalidEmail": "请输入有效的电子邮箱地址",
+    "successTitle": "谢谢！",
+    "successMessage": "我们将尽快与您联系"
   }
 }

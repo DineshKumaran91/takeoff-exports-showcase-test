@@ -94,5 +94,20 @@
   "footer": {
     "tagline": "Delivering Quality. Exporting Trust.",
     "copyright": "© 2025 Takeoff Exports. All rights reserved."
+  },
+  "quoteForm": {
+    "title": "Request Free Quote",
+    "subtitle": "Fill in your details and we'll get back to you shortly",
+    "namePlaceholder": "Your Name",
+    "mobilePlaceholder": "Mobile Number",
+    "emailPlaceholder": "Email ID",
+    "messagePlaceholder": "Your Message (Optional)",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "validationError": "Validation Error",
+    "fillRequired": "Please fill in all required fields",
+    "invalidEmail": "Please enter a valid email address",
+    "successTitle": "Thank You!",
+    "successMessage": "We will contact you shortly"
   }
 }

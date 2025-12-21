@@ -94,5 +94,20 @@
   "footer": {
     "tagline": "Qualität Liefern. Vertrauen Exportieren.",
     "copyright": "© 2025 Takeoff Exports. Alle Rechte vorbehalten."
+  },
+  "quoteForm": {
+    "title": "Kostenloses Angebot Anfordern",
+    "subtitle": "Geben Sie Ihre Daten ein und wir melden uns in Kürze",
+    "namePlaceholder": "Ihr Name",
+    "mobilePlaceholder": "Handynummer",
+    "emailPlaceholder": "E-Mail-Adresse",
+    "messagePlaceholder": "Ihre Nachricht (Optional)",
+    "submit": "Absenden",
+    "submitting": "Wird gesendet...",
+    "validationError": "Validierungsfehler",
+    "fillRequired": "Bitte füllen Sie alle erforderlichen Felder aus",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "successTitle": "Danke!",
+    "successMessage": "Wir werden uns in Kürze bei Ihnen melden"
   }
 }
